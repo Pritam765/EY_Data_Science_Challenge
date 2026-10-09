@@ -1,6 +1,16 @@
 
 import streamlit as st
 
+import sys
+from pathlib import Path
+
+project_dir = Path(__file__).resolve().parent.parent
+
+if str(project_dir) not in sys.path:
+    sys.path.insert(0, str(project_dir))
+
+from src.feature_preparation import FeaturePreparation
+
 # Configure the dashboard page
 st.set_page_config(
     page_title="EY Data Science Dashboard",
