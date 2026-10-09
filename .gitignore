@@ -17,11 +17,11 @@ __pycache__/
 # Generated data
 data/processed/
 
-# Trained models
-models/
 
 # OS files
 .DS_Store
 Thumbs.db
 
 notebooks/data/processed/
+
+notebooks/models/
