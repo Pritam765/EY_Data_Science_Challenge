@@ -25,3 +25,5 @@ Thumbs.db
 notebooks/data/processed/
 
 notebooks/models/
+
+.streamlit/secrets.toml
